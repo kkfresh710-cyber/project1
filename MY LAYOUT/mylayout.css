@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	color:white;
+}
+
+/* Style the topnav */
+ul.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  justify-content:center;
+}
+
+/* Style links in topnav */
+ul.nav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.nav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.flex-container > div {
+  margin: 10px;
+}
+
+/* Use media query and show the flex items vertically if screen width is less than 600px */
+@media screen and (max-width:600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
+}
+footer {
+  background-color: orange;
+  padding: 8px;
+  text-align: center;
+}
+#kelvin{
+		background-color:orange;
+}
+#double{
+		border-style:outset;
+		padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  color:black;
+  /*background-color:orange;*/
+  box-shadow: 10px 10px black;
+}
+#inset{
+		border-Style:outset;
+			padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 90px;
+  padding-left: 20px;
+  color:black;
+  /*background-color:orange;*/
+  box-shadow: 10px 10px black;
+}
+#outset{
+	border-style:outset;
+		padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 90px;
+  padding-left: 20px;
+  color:black;
+  /*background-color:orange;*/
+  box-shadow: 10px 10px grey;
+}
+h2{
+	background-color:black;
+	color:orange
+}
